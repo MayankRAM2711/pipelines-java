@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: 'devops187-aws-itm-training-devl-useast1-floating-ec2-AMZ_Linux2'
 
 steps:
 - task: Maven@3
